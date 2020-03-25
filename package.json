@@ -17,12 +17,12 @@
     "@zeit/next-css": "1.0.1",
     "emotion-theming": "10.0.27",
     "next": "latest",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "twin.macro": "1.0.0-alpha.7"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.2"
   },
   "browserslist": [
     ">0.2%",
