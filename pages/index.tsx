@@ -18,6 +18,7 @@ const IndexPage = () => (
     ]}
   >
     <div tw="flex flex-col justify-center h-full">
+      <h3 tw="text-cyan text-center text-xl">With TypeScript</h3>
       <Button isPrimary>Submit</Button>
       <Button isSecondary>Cancel</Button>
       <Button isSmall>Close</Button>
