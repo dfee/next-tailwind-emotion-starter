@@ -1,7 +1,8 @@
 import React from 'react'
 import { css } from '@emotion/core'
 import tw from 'twin.macro'
-import { Button, Logo } from './../components'
+import { Button } from '../components/button'
+import { Logo } from '../components/logo'
 
 const IndexPage = () => (
   <div

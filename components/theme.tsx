@@ -5,6 +5,8 @@ import tailwindConfig from './../tailwind.config.js'
 
 const { theme } = resolveConfig(tailwindConfig)
 
-const Theme = props => <ThemeProvider {...props} {...{ theme }} />
+export type ThemeProps = React.PropsWithChildren<{}>
 
-export default Theme
+export const Theme = (props: ThemeProps) => (
+  <ThemeProvider {...props} {...{ theme }} />
+)

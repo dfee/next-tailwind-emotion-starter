@@ -3,8 +3,16 @@ import tw from 'twin.macro'
 import styled from '@emotion/styled/macro'
 import { css } from '@emotion/core'
 
+export type ButtonProps = React.PropsWithChildren<{
+  isPrimary?: boolean
+  isSecondary?: boolean
+  isSmall?: boolean
+}>
+
+export type WithTheme<P> = P & { theme: tailwindcss.Theme }
+
 const StyledButton = styled.button(
-  ({ isPrimary, isSecondary, isSmall, theme }) => [
+  ({ isPrimary, isSecondary, isSmall, theme }: WithTheme<ButtonProps>) => [
     // The base button styles added with the tw macro
     tw`text-lg px-8 py-2 rounded
     transform hocus:scale-105 transition-transform duration-75
@@ -30,6 +38,4 @@ const StyledButton = styled.button(
   ]
 )
 
-const Button = props => <StyledButton {...props} />
-
-export default Button
+export const Button = (props: ButtonProps) => <StyledButton {...props} />

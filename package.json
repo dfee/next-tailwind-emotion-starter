@@ -14,12 +14,15 @@
     "@emotion/babel-preset-css-prop": "10.0.27",
     "@emotion/core": "10.0.28",
     "@emotion/styled": "10.0.27",
+    "@types/node": "^12.12.31",
+    "@types/react": "^16.9.25",
     "@zeit/next-css": "1.0.1",
     "emotion-theming": "10.0.27",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "twin.macro": "1.0.0-alpha.7"
+    "twin.macro": "1.0.0-alpha.7",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "prettier": "^2.0.2"
