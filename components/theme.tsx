@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'emotion-theming'
 import resolveConfig from 'tailwindcss/resolveConfig'
-import tailwindConfig from './../tailwind.config.js'
+import tailwindConfig from './../tailwind.config'
 
 const { theme } = resolveConfig(tailwindConfig)
 

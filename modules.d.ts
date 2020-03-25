@@ -17,6 +17,6 @@ declare module 'tailwindcss/resolveConfig' {
   export default function resolveConfig(
     config: any
   ): {
-    theme: Theme
+    theme: tailwindcss.Theme
   }
 }
